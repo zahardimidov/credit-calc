@@ -1,7 +1,7 @@
 class Calculator {
     constructor(selector) {
         this.element = document.querySelector(selector);
-        this.createElement();
+        this.createElement(JSON.parse(this.element.dataset.setup));
         this.styles = window.getComputedStyle(this.element);
 
         this.labels = document.querySelectorAll(selector+' label');
