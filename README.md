@@ -13,3 +13,9 @@ I would like to present to you my ready-made solution for a loan calculator for 
 <script src="http://cdn.jsdelivr.net/gh/zahardimidov/credit-calc/js/fonts.js"></script>
 <script src="http://cdn.jsdelivr.net/gh/zahardimidov/credit-calc/js/calculator.js"></script>
 ```
+
+### DATA-SETUP
+To edit any calculator parametres you should set data-setup attributes in HTML
+```
+<div class="credit-calc"></div>
+```
