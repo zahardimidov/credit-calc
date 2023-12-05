@@ -15,7 +15,7 @@ I would like to present to you my ready-made solution for a loan calculator for 
 ```
 
 ### DATA-SETUP
-To edit any calculator parametres you should set data-setup attributes in HTML
+To edit any calculator parameters, you must set data-setup attributes in HTML
 ```
-<div class="credit-calc"></div>
+<div class="credit-calc" data-setup='{"defaultAmount": "50000", "minAmount": "10000", "color": "red", "secondary_color": "darkred"}'></div>
 ```
