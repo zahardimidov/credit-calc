@@ -47,6 +47,14 @@
     font-size: 20px;
 }
 
+.credit-input select:focus {
+    outline: 0 !important;
+    border: none !important;
+}
+.credit-input select:hover {
+    outline: 0 !important;
+    border: none !important;
+}
 
 .payment-type .label {
     margin: 20px 10px 0px 10px;
